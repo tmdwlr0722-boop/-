@@ -21,3 +21,22 @@ npx remotion render AiAgentExplainer out/ai-agent-explainer.mp4
 완성본: `ai-agent-explainer.mp4`
 
 폰트: Noto Sans KR (SIL Open Font License, `public/fonts/OFL.txt`)
+
+---
+
+# 세로 버전 (쇼츠·릴스용, 음성 + 자막)
+
+- 컴포지션: `AiAgentExplainerVertical` (1080×1920, 30fps, 약 40초)
+- 완성본: `ai-agent-explainer-vertical.mp4`
+- 대본: `scripts/script.json` (`text` = 자막, `say` = 읽는 방식이 다를 때의 발음용 문장)
+- 음성: 오프라인 한국어 TTS(sherpa-onnx + `vits-mimic3-ko_KO-kss_low`)로 생성, `public/voiceover/`
+- 장면 길이와 자막 타이밍은 `src/voiceover.json`의 음성 길이에 맞춰 자동 계산됩니다.
+
+대본을 고친 뒤 다시 만들기:
+
+```bash
+pip install "sherpa-onnx<2" soundfile
+# https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-mimic3-ko_KO-kss_low.tar.bz2 를 받아 압축 해제
+python scripts/generate_voiceover.py <모델 폴더>
+npx remotion render AiAgentExplainerVertical out/ai-agent-explainer-vertical.mp4
+```

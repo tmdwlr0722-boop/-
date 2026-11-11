@@ -1,0 +1,92 @@
+[
+  {
+    "id": "intro",
+    "lines": [
+      {
+        "text": "AI 에이전트, 요즘 많이 들어보셨죠?",
+        "file": "voiceover/intro-0.wav",
+        "seconds": 2.914
+      },
+      {
+        "text": "짧고 쉽게 알려 드릴게요.",
+        "file": "voiceover/intro-1.wav",
+        "seconds": 1.71
+      }
+    ]
+  },
+  {
+    "id": "compare",
+    "lines": [
+      {
+        "text": "챗봇은 질문에 대답만 해요.",
+        "file": "voiceover/compare-0.wav",
+        "seconds": 2.237
+      },
+      {
+        "text": "하지만 AI 에이전트는 일을 직접 해냅니다.",
+        "file": "voiceover/compare-1.wav",
+        "seconds": 3.405
+      }
+    ]
+  },
+  {
+    "id": "loop",
+    "lines": [
+      {
+        "text": "먼저 목표를 이해하고,",
+        "file": "voiceover/loop-0.wav",
+        "seconds": 1.866
+      },
+      {
+        "text": "계획을 세운 다음,",
+        "file": "voiceover/loop-1.wav",
+        "seconds": 1.851
+      },
+      {
+        "text": "필요한 도구로 실행하고,",
+        "file": "voiceover/loop-2.wav",
+        "seconds": 1.889
+      },
+      {
+        "text": "결과를 확인해요.",
+        "file": "voiceover/loop-3.wav",
+        "seconds": 1.45
+      },
+      {
+        "text": "목표를 이룰 때까지 이 과정을 스스로 반복하죠.",
+        "file": "voiceover/loop-4.wav",
+        "seconds": 3.719
+      }
+    ]
+  },
+  {
+    "id": "example",
+    "lines": [
+      {
+        "text": "예를 들어 “부산 출장 준비해 줘”라고 하면,",
+        "file": "voiceover/example-0.wav",
+        "seconds": 3.119
+      },
+      {
+        "text": "항공권을 찾고, 호텔을 예약하고, 일정까지 등록해 줘요.",
+        "file": "voiceover/example-1.wav",
+        "seconds": 4.434
+      }
+    ]
+  },
+  {
+    "id": "outro",
+    "lines": [
+      {
+        "text": "스스로 계획하고, 도구를 써서, 끝까지 해내는 AI.",
+        "file": "voiceover/outro-0.wav",
+        "seconds": 3.67
+      },
+      {
+        "text": "그게 바로 AI 에이전트입니다.",
+        "file": "voiceover/outro-1.wav",
+        "seconds": 2.346
+      }
+    ]
+  }
+]
